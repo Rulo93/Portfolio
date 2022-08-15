@@ -1,0 +1,148 @@
+.principal-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+   
+ 
+}
+.container-first{
+margin: 0;
+padding: 0;
+width: 20%;
+color: rgb(68, 71, 73);
+align-items: flex-start;
+
+}
+.container-first p{
+    font-size: 1rem;
+    text-align: start;
+    text-transform: uppercase;
+}
+.container-second{
+    margin-bottom: 30px;
+    padding: 0;
+}
+.container-second span{
+    font-size: 10rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(166, 175, 182);
+    margin: 0;
+    padding: 0;
+}
+.container-second h2{
+    font-size: 10rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(147, 153, 158) ;
+    margin:0;
+    padding: 0;
+}
+.container-third{
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    color: rgb(68, 71, 73);
+    align-items: flex-end;
+    
+}
+.container-third p{
+    font-size: 1rem;
+    text-align: end;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 1024px){
+    .principal-container {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .container-first p{
+        font-size: 1rem;
+        
+    }
+    .container-second span{
+        font-size: 6rem;  
+    }
+    .container-second h2{
+        font-size: 6rem;
+    }
+    .container-third p{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 412px){
+    .principal-container {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .container-first p{
+        font-size: 2rem;
+        
+    }
+    .container-second span{
+        font-size: 7rem;  
+    }
+    .container-second h2{
+        font-size: 7rem;
+    }
+    .container-third p{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 280px){
+    
+    .container-first p{
+        font-size: 1rem;
+        
+    }
+    .container-second span{
+        font-size: 5rem;  
+    }
+    .container-second h2{
+        font-size: 5rem;
+    }
+    .container-third p{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 540px){
+    
+    .container-first p{
+        font-size: 1.5rem;
+        
+    }
+    .container-second span{
+        font-size: 7rem;  
+    }
+    .container-second h2{
+        font-size: 7rem;
+    }
+    .container-third p{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 393px){
+    
+    .container-first p{
+        font-size: 1.5rem;
+        
+    }
+    .container-second span{
+        font-size: 6rem;  
+    }
+    .container-second h2{
+        font-size: 6rem;
+    }
+    .container-third p{
+        font-size: 1.5rem;
+    }
+}
